@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+footer{
+    margin-top: 20px;
+    background-color: black;
+    
+}
+
+.social{
+    color: white;
+    font-style: italic;
+    text-align: center;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+body {
+    background-color: wheat;
+}
+
+.barranav {
+    background-color: black;
+    overflow: hidden;
+    width: 100%;
+    
+}
+
+.barranav img{
+    background-color:white;
+    overflow: hidden;
+    width:50px; 
+    height:50px;
+    border-style: ridge; 
+    float: right;
+    display: block;
+    align-items: center;
+    margin: 17px;
+    border-radius: 60%;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    float: left;
+}
+
+.nav-list li a {
+    padding: 40px;
+    color: white;
+    box-shadow: 0px 0px 3px white;
+    text-decoration: none;
+    display: block;
+}
+
+.barranav p {
+    font-size: 20px;
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+    font-style: oblique;
+    margin: 17px;
+}
+
+.menu{ 
+    background-color: wheat;
+    text-align: center;
+    display: block;
+}
+
+.menu a{ 
+    display: block;
+    font-size: 20px;
+    color: black;
+    padding: 20px;
+    box-shadow: 5px 8px 15px;
+    text-decoration: none;
+}
+
+.menu h2{
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    margin: 30px;
+}
+
+.img{
+    border: 3px solid black;
+    width: 335px;
+    height: 450px;
+    border-radius: 8px;
+}
+
+.lista{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.descricao{
+    font-size: 20px;
+    font-style: oblique;
+    padding: 10px;
+}
+
+.main {
+    flex: 1;
+    min-height: 100vh;
+}
+
+.formulario {
+    background-color: rgb(233, 185, 96);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 10px;
+    gap:10px;
+    margin-top: 10px;
+    box-shadow: 5px 2px 3px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.formulario p{
+    color: red;
+}
