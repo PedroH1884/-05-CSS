@@ -17,6 +17,7 @@ footer{
     gap: 20px;
     display: flex;
     justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -92,6 +93,7 @@ body {
     color: white;
     border-radius: 15px;
     margin: 30px;
+    font-family:'Courier New', Courier, monospace
 }
 
 .img{
